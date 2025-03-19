@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação Campeonato Brasileiro 2024</title>
+    <link rel="stylesheet" href="css/estilo.css"> <!-- Link para o CSS -->
+</head>
+<body>
+
+    <!-- Lista de Jogos -->
+    <h2>Agenda de Jogos</h2>
+    <ol>
+        <li>Jogo 1 - Data: 15/03/2025 - Oponente: Time A</li>
+        <li>Jogo 2 - Data: 20/03/2025 - Oponente: Time B</li>
+        <li>Jogo 3 - Data: 25/03/2025 - Oponente: Time C</li>
+        <li>Jogo 4 - Data: 30/03/2025 - Oponente: Time D</li>
+    </ol>
+
+    <a href="https://www.seutime.com.br" target="_blank">Acesse a página oficial do clube</a>
+
+    <!-- Tabela de Classificação -->
+    <h2>Classificação do Campeonato Brasileiro 2024</h2>
+    <table>
+        <tr>
+            <th>Imagem</th>
+            <th>Posição</th>
+            <th>Time</th>
+            <th>Pontos</th>
+            <th>Qtd. Jogos</th>
+            <th>Qtd. Vitórias</th>
+            <th>Qtd. Derrotas</th>
+        </tr>
+        <tr class="primeiro-lugar">
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Logo_Botafogo_2016.svg/1280px-Logo_Botafogo_2016.svg.png" alt="Botafogo" width="50"></td>
+            <td>1</td>
+            <td><a href="https://www.botafogo.com.br" target="_blank">Botafogo</a></td>
+            <td>79</td>
+            <td>10</td>
+            <td>9</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Palmeiras_logo.svg/1280px-Palmeiras_logo.svg.png" alt="Palmeiras" width="50"></td>
+            <td>2</td>
+            <td><a href="https://www.palmeiras.com.br" target="_blank">Palmeiras</a></td>
+            <td>73</td>
+            <td>10</td>
+            <td>8</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flamengo_logo.svg/1280px-Flamengo_logo.svg.png" alt="Flamengo" width="50"></td>
+            <td>3</td>
+            <td><a href="https://www.flamengo.com.br" target="_blank">Flamengo</a></td>
+            <td>70</td>
+            <td>10</td>
+            <td>7</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos da lista de jogos */
+ol {
+    margin: 20px auto;
+    width: 80%;
+    padding: 10px;
+    list-style-type: decimal;
+    font-size: 16px;
+}
+
+ol li {
+    margin: 10px 0;
+}
+
+/* Estilos da tabela */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Estilo da primeira linha (Botafogo) */
+tr.primeiro-lugar {
+    background-color: #f1c40f;
+}
+
+/* Estilo dos links na tabela */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos das imagens dos times */
+img {
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
